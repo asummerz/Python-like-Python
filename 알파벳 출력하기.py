@@ -18,3 +18,5 @@ elif (num == 1):
 # 숫자만 출력 시에는
 # string.digits
 # 를 사용한다. 특징으로는 0 ~ 9 까지 숫자도 string을 import한다는 것!
+
+# 더 많은 string 상수? https://docs.python.org/3.4/library/string.html
