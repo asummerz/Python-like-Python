@@ -5,3 +5,11 @@
 # 제한 조건
 # mylist의 길이는 100 이하인 자연수입니다.
 # mylist 각 원소의 길이는 100 이하인 자연수입니다.
+
+def solution(mylist):
+    answer = list(map(len, mylist))
+    return answer
+
+# 테스트 케이스도 추가해서 빈칸 채우기 문제를 풀었다.
+# map()는 기본적으로 list(map(변환 시 사용할 자료형, 변환할 요소가 담긴 값))
+# 이기 때문에 어렵지 않게 풀 수 있다.
