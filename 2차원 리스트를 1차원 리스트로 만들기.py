@@ -3,3 +3,6 @@
 # 제한 조건
 # arr의 길이는 1 이상 100 이하인 자연수입니다.
 # arr 원소의 길이는 5를 넘지 않습니다.
+
+def solution(mylist):
+    return sum(mylist, [])
